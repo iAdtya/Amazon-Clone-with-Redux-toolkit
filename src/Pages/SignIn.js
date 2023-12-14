@@ -21,10 +21,11 @@ export function SignIn() {
       email: emailRef.current.value,
       password: passwordRef.current.value,
     };
+    console.log(data);
     const status = dispatch(createSessionThunk(data));
     // if user signed in redirect to corresponding page
 
-    status ? navigate("/") : navigate("/signin");
+    status ? navigate("/") : navigate("/signIn");
   };
 
   return (

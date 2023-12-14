@@ -19,8 +19,8 @@ export function SignUp() {
       password: passwordRef.current.value,
     };
     dispatch(createUserThunk(data));
-    // console.log(data);
-    navigate("/signin");
+    console.log(data);
+    navigate("/signIn");
   };
 
   return (
