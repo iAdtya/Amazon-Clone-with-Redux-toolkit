@@ -5,17 +5,19 @@ import { Navbar } from "./Component/Navbar";
 import { SignIn } from "./Pages/SignIn";
 import { Home } from "./Component/Home";
 import { Error } from "./Pages/Error";
+import { Cart } from "./Pages/Cart";
+import { MyOrder } from "./Pages/MyOrder";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Navbar />,
-      errorElement:<Error/>,
+      errorElement: <Error />,
       children: [
         {
           index: true,
-          element: <Home/>
+          element: <Home />,
         },
         {
           path: "/signUp",
@@ -26,8 +28,13 @@ function App() {
           element: <SignIn />,
         },
         {
-          
-        }
+          path: "/cart",
+          element: <Cart />,
+        },
+        {
+          path: "/myOrder",
+          element: <MyOrder />,
+        },
       ],
     },
   ]);
