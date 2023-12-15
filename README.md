@@ -3,7 +3,7 @@
 This project is a React application with Redux for state management, Firebase for backend services, and Tailwind CSS for styling, It is a clone of the popular e-commerce platform, Amazon. The application is developed using React.js and Firebase.
 
 ## Directory Structure
-
+```
 .
 ├── .gitignore
 ├── .vscode
@@ -43,7 +43,7 @@ This project is a React application with Redux for state management, Firebase fo
 │ ├── index.css
 │ └── index.js
 └── tailwind.config.js
-
+```
 ## Installation
 
 To install the project, follow these steps:
