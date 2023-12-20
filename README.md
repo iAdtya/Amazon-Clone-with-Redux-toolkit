@@ -2,6 +2,9 @@
 
 This project is a React application with Redux for state management, Firebase for backend services, and Tailwind CSS for styling, It is a clone of the popular e-commerce platform, Amazon. The application is developed using React.js and Firebase.
 
+## Output
+![Screenshot 2023-12-20 170417](https://github.com/iAdtya/Amazon-Clone-with-Redux-toolkit/assets/93979441/a6120a2c-b690-4f8d-b5cc-4f4e6251677b)
+
 ## Directory Structure
 ```
 .
